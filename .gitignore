@@ -26,6 +26,20 @@
 *.sql
 *.sqlite
 
+# Numerous always ignored extensions
+*.diff
+*.err
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+node_modules/
+.tmp
+
+
 # OS generated files #
 ######################
 .DS_Store
@@ -35,3 +49,14 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools_notes
+dwsync.xml
