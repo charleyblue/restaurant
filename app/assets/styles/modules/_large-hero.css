@@ -4,15 +4,3 @@
   background-attachment: fixed;
   min-height: 60vh;
 }
-
-#mainBlue: #2f5572;
-
-body {
-  color: #333;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-img {
-  height: auto;
-  max-width: 100%;
-}
