@@ -440,20 +440,25 @@ img {
   position: relative;
 }
 
-.large-hero__image {
-  background-image: url('../../assets/images/restaurant-diners_640.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  min-height: 60vh;
+.large-hero__text-content {
+  color: #f0f0f0;
+  padding: 1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: translateY(10%);
+          transform: translateY(10%);
+  text-align: center;
+  width: 100%;
 }
 
-.large-hero__text-content {
-  background-color: rgba(47, 85, 114, 0.5);
-  color: #fff;
-  display: inline-block;
-  padding: 1rem;
-  width: 100%;
-  text-align: center;
+.large-hero__title {
+  font-size: 4.8rem;
+  font-weight: 300;
+}
+
+.large-hero__subtitle {
+  font-size: 2.9rem;
 }
 
 #mainBlue: #2f5572;
