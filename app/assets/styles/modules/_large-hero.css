@@ -12,8 +12,10 @@
 .large-hero__text-content {
   background-color: rgba(47, 85, 114, 0.5);
   color: #fff;
-  display: inline-block;
+  position: absolute;
   padding: 1rem;
-  width: 100%;
   text-align: center;
+  top: 50%;
+  transform: translateY();
+  width: 100%;
 }
