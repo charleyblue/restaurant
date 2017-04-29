@@ -1,0 +1,7 @@
+.special-text {
+  display: inline-block;
+  font-family:  'Great Vibes', serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+  letter-spacing: .2rem;
+}

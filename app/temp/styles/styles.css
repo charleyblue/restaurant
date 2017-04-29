@@ -428,7 +428,7 @@ template {
 
 body {
   color: #333;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 img {
@@ -445,29 +445,29 @@ img {
   }*/
 
 .large-hero__text-content {
-  background-color: rgba(100,100,100, 0.7);
+  background-color: rgba(10,10,10, 0.7);
   color: #f0f0f0;
-  padding: 1rem;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 2rem 0;
   position: absolute;
   left: 0;
   top: 0;
   margin: 0 auto;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
   text-align: center;
   width: 100%;
 }
 
 .large-hero__title {
   font-size: 3.25rem;
-  font-weight: 300;
+  font-variant: small-caps;
+  font-weight: 100;
   margin: 0 auto;
   max-width: 70rem;
 }
 
 .large-hero__subtitle {
   font-size: 2.35rem;
-  font-weight: 300;
+  font-weight: lighter;
   margin: 0;
 }
 
@@ -477,4 +477,24 @@ img {
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
-#mainBlue: #2f5572;
+.btn {
+  background-color: #2f5572;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.8rem;
+  margin: 1.5rem 0 1rem 0;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+}
+
+.btn--orange {
+  background-color: #d59541;
+}
+
+.special-text {
+  display: inline-block;
+  font-family:  'Great Vibes', serif;
+  font-size: 1.25rem;
+  line-height: 150%;
+  letter-spacing: .2rem;
+}
