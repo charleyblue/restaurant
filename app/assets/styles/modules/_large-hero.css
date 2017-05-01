@@ -1,16 +1,35 @@
 .large-hero {
-  position: relative;
+  /*position: relative;*/
+  background-image:url(../../assets/images/restaurant-diners_640.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 65vh;
+
+  @mixin atSmall {
+    background-image: url(../../assets/images/restaurant-diners_1280-crop.jpg);
+  }
+
+  @mixin atMedium {
+    background-image: url(../../assets/images/restaurant-diners_2400-crop.jpg);
+  }
+
+  &__container {
+    background-color: rgba(10,10,10, 0.7);
+    margin: 0 auto;
+
+    @mixin atSmall {
+      max-width: 80vw;
+    }
+  }
 
   &__text-content {
-    background-color: rgba(10,10,10, 0.7);
     font-family: "Roboto Condensed", sans-serif;
     padding: 2rem 0;
-    position: absolute;
-    left: 0;
-    top: 0;
+    /*left: 0;
+    top: 0;*/
     margin: 0 auto;
     text-align: center;
-    width: 100%;
+
   }
 
     &__title {
@@ -32,7 +51,7 @@
 
     &__subtitle {
       color: $almostWhite;
-      font-size: 1.1rem;
+      font-size: 1rem;
       font-weight: lighter;
       margin: 0;
 

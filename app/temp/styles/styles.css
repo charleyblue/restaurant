@@ -437,20 +437,46 @@ img {
 }
 
 .large-hero {
-  position: relative;
+  /*position: relative;*/
+  background-image:url(../../assets/images/restaurant-diners_640.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 65vh;
 
 }
 
-.large-hero__text-content {
+@media (min-width:635px) {
+
+  .large-hero {
+    background-image: url(../../assets/images/restaurant-diners_1280-crop.jpg);
+  }
+}
+
+@media (min-width:800px) {
+
+  .large-hero {
+    background-image: url(../../assets/images/restaurant-diners_2400-crop.jpg);
+  }
+}
+
+.large-hero__container {
   background-color: rgba(10,10,10, 0.7);
+  margin: 0 auto;
+}
+
+@media (min-width:635px) {
+
+  .large-hero__container {
+    max-width: 80vw;
+  }
+}
+
+.large-hero__text-content {
   font-family: "Roboto Condensed", sans-serif;
-  padding: 2rem 0;
-  position: absolute;
-  left: 0;
-  top: 0;
+  padding: 2rem 0;/*left: 0;
+    top: 0;*/
   margin: 0 auto;
   text-align: center;
-  width: 100%;
 }
 
 .large-hero__title {
@@ -462,7 +488,7 @@ img {
   max-width: 70rem;
 }
 
-@media (min-width:530px) {
+@media (min-width:635px) {
 
   .large-hero__title {
     font-size: 2.25rem;
@@ -478,12 +504,12 @@ img {
 
 .large-hero__subtitle {
   color: #f0f0f0;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: lighter;
   margin: 0;
 }
 
-@media (min-width:530px) {
+@media (min-width:635px) {
 
   .large-hero__subtitle {
     font-size: 1.85rem;
@@ -501,9 +527,9 @@ img {
   background-color: #2f5572;
   color: #fff;
   display: inline-block;
-  font-size: 1.8rem;
-  margin: 1.5rem 0 1rem 0;
-  padding: 1rem 1.75rem;
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  padding: 1rem;
   text-decoration: none;
 }
 
@@ -514,7 +540,7 @@ img {
 .special-text {
   display: inline-block;
   font-family:  'Great Vibes', serif;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 150%;
   letter-spacing: .2rem;
 }
