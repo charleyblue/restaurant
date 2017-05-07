@@ -1,0 +1,9 @@
+.float-left {
+  float: left;
+  padding-right: .5rem;
+}
+
+.float-right {
+  float: right;
+  padding-left: .5rem;
+}
