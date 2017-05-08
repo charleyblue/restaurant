@@ -1,5 +1,7 @@
 .btn {
-  background-color: $mainBlue;
+  background-color: $orangeRed;
+  border-radius: .5rem;
+  box-shadow: 2px 2px 0 #666;
   color: #fff;
   display: inline-block;
   font-size: 1.125rem;

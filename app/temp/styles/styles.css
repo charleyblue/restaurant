@@ -460,7 +460,9 @@ img {
 }
 
 .btn {
-  background-color: #2f5572;
+  background-color: #e8340c;
+  border-radius: .5rem;
+  box-shadow: 2px 2px 0 #666;
   color: #fff;
   display: inline-block;
   font-size: 1.125rem;
@@ -492,8 +494,10 @@ img {
 }
 
 .intro {
-  background-image: linear-gradient(rgba(10,10,10, 1), rgba(10,10,10, 0.7), rgba(10,10,10, 0.4));
+  background-image: linear-gradient(rgba(5,105,69, 1), rgba(5,105,69, 0.9), rgba(5,105,69, 0.8), rgba(5,105,69, 0.7));
 }
+
+/*grey rgba(10,10,10, 0.4)*/
 
 .intro__text-content {
   font-family: "Roboto Condensed", sans-serif;
