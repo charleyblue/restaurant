@@ -1,6 +1,9 @@
 .float-left {
-  float: left;
-  padding-right: .5rem;
+  @mixin atSmall {
+    float: left;
+    padding-right: .5rem;
+  }
+
 }
 
 .float-right {

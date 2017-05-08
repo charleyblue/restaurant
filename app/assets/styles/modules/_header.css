@@ -1,6 +1,6 @@
 .intro {
-  background-image: linear-gradient(rgba(5,105,69, 1), rgba(5,105,69, 0.9), rgba(5,105,69, 0.8), rgba(5,105,69, 0.7));
-  /*grey rgba(10,10,10, 0.4)*/
+  background-image: linear-gradient(rgba(3,54,35, 1), rgba(5,105,69, 1), rgba(5,105,69, 0.5));
+  
   &__text-content {
     font-family: "Roboto Condensed", sans-serif;
     padding: 2rem 0;
