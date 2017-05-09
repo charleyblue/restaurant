@@ -1,6 +1,7 @@
 .intro {
   background-image: linear-gradient(rgba(3,54,35, 1), rgba(5,105,69, 1), rgba(5,105,69, 0.5));
-  
+  display: block;
+
   &__text-content {
     font-family: "Roboto Condensed", sans-serif;
     padding: 2rem 0;

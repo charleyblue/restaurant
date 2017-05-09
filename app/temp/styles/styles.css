@@ -443,6 +443,7 @@ img {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  display: block;
   min-height: 40vh;
   max-height: 60vh;
 }
@@ -496,6 +497,7 @@ img {
 
 .intro {
   background-image: linear-gradient(rgba(3,54,35, 1), rgba(5,105,69, 1), rgba(5,105,69, 0.5));
+  display: block;
 }
 
 .intro__text-content {

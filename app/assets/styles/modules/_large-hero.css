@@ -4,6 +4,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  display: block;
   min-height: 40vh;
   max-height: 60vh;
   width: 100%
