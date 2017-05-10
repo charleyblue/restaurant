@@ -618,3 +618,7 @@ img {
 .row__box:last-child {
   border-right: none;
 }
+
+.page-section {
+  padding: 4rem 0;
+}
