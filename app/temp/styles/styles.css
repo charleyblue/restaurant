@@ -437,6 +437,10 @@ img {
   max-width: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .large-hero {
   /*position: relative;*/
   background-image:url(../../assets/images/restaurant-diners_640w-251h.jpg);
@@ -444,8 +448,8 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
-  min-height: 40vh;
-  max-height: 60vh;
+  min-height: 60vh;
+  max-height: 90vh;
 }
 
 .large-hero width: 100%
@@ -496,7 +500,9 @@ img {
 }
 
 .intro {
-  background-image: linear-gradient(rgba(3,54,35, 1), rgba(5,105,69, 1), rgba(5,105,69, 0.5));
+  background-color: #f0f0f0;
+  color: rgba(3,54,35, 0.9);
+  /*background-image: linear-gradient(rgba(3,54,35, 1), rgba(5,105,69, 1), rgba(5,105,69, 0.5));*/
   display: block;
 }
 
@@ -508,7 +514,6 @@ img {
 }
 
 .intro__title {
-  color: #f0f0f0;
   font-size: 1.35rem;
   font-weight: 100;
   text-transform: capitalize;
@@ -531,7 +536,6 @@ img {
 }
 
 .intro__subtitle {
-  color: #f0f0f0;
   font-size: 1rem;
   font-weight: lighter;
   margin: 0;
@@ -598,7 +602,6 @@ img {
 }
 
 .row {
-  /*background-color: grey;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -610,9 +613,8 @@ img {
 }
 
 .row__box {
-  background-color: grey;
-  height: 5rem;
-  width: 15rem;
+  background-color: #f0f0f0;
+  width: 33.33%;
 }
 
 .row__box:last-child {
@@ -621,4 +623,13 @@ img {
 
 .page-section {
   padding: 4rem 0;
+}
+
+.top-banner {
+  background-color: #f0f0f0;
+  color: rgba(3,54,35, 0.9);
+  height: 100%;
+  margin: 0;
+  padding: 0.5rem 0;
+  text-align: center;
 }

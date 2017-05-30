@@ -1,13 +1,11 @@
 .row {
-  /*background-color: grey;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
   &__box {
-    background-color: grey;
-    height: 5rem;
-    width: 15rem;
+    background-color: $almostWhite;
+    width: 33.33%;
   }
 
   &__box:last-child {
